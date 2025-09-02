@@ -1,0 +1,7 @@
+/**
+ * promotions controller
+ */
+
+import { factories } from '@strapi/strapi'
+
+export default factories.createCoreController('api::promotions.promotions');
